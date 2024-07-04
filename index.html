@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Jessica Martínez | Portafolio Web</title>
+</head>
+<body>
+    <!--Barra de Navegación-->
+    <nav>
+        <h1>Jessica Martínez</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!--sección hero-->
+    <section class="hero" id="about">
+        <img src="image/jessping.jfif" alt="Jessica con pingüinos" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h1 class="bio-tittle">About me</h1>
+            <p class="bio-text">Soy Jessica Martínez Álvarez, soy una futura bióloga marina, me gusta estar en constante aprendizaje tanto académico como profesional, me considero una artista, debido a que me gusta crear y expresar lo que veo y siento. Mi meta es poder llegar a todas las edades e cultivar conocimiento sobre el área ambiental, para que las personas tengan conocimiento de todo lo que hay por conocer en su país, y al igual que busco desarrollar y contribuir al desarrollo sostenible.</p>
+        </div>
+    </section>
+
+<!--About me-->
+<section class="more-about">
+    <h2>More About Me</h2>
+    <p>Mis estudios los estoy realizando en la Universidad Autónoma de Yucatán, estoy en las últimas etapas para finalizar mi carrera, pero por motivos de planificación va a tardar más tiempo.</p>
+    <p>Durante mi recorrido academico he podido trabajar en diversos proyectos, como en el monitoreo de fauna (especialmente aves) en un área natural protegida de Yucatán, también participe en un congreso que se llevo a cabo en Veracruz sobre costas, fue una experiencia realmente gratificante, y más porque pude compartir esta experiencia con personas que aprecio mucho.</p>
+    <p>Actualmente me encuentro realizando una estancia en el Tijuana, en un área un tanto diferente, que esta siendo un reto pero a su vez un logro personal y academico.</p>
+</section>
+
+<!--Skills-->
+<section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+       <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+             <img src="image/html5.png" alt="HTML5" Loading="lazy" class="icon icon-card">
+             <img src="image/css3.png" alt="CSS3" Loading="lazy" class="icon icon-card">
+             <img src="image/javascript.png" alt="JavaScript" Loading="lazy" class="icon icon-card">
+          </div>
+
+          <div class="second-set animate__animated animate__pulse">
+             <img src="image/bootstrap.png" alt="Bootstrap" Loading="lazy" class="icon icon-card">
+             <img src="image/GitHub.png" alt="Git" Loading="lazy" class="icon icon-card">
+             <img src="image/react native.png" alt="React" Loading="lazy" class="icon icon-card">
+          </div>
+       </div> 
+</section>
+
+
+<!--Projects-->
+<section class="projects" id="projects">
+    <h2 class="projects-title">Some of My Recent Projects</h2>
+    <div class="projects-container">
+       <div class="project-container project-card">
+        <img src="image/preview.jpeg" alt="" Loading="lazy" class="project-pic">
+        <h3 class="project-title">Project 1. Pinterest clon</h3>
+        <p class="project-detalls">Desarrollo de la interfaz de pinterest con HTML5 y CSS3</p>
+        <a href="#" target="_blank" class="project-link">Check it out</a>
+       </div>
+    
+       <div class="project-container project-card">
+        <img src="image/Work-in-Progress.jpg" alt="" Loading="lazy" class="project-pic">
+        <h3 class="project-title">Project 2</h3>
+        <p class="project-detalls">Emprendimiento de productos marinos, PROXIMAMENTE</p>
+        <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+       </div>
+
+       <div class="project-container project-card">
+        <img src="image/Work-in-Progress.jpg" alt="" Loading="lazy" class="project-pic">
+        <h3 class="project-title">Project 3</h3>
+        <p class="project-details">Pagina web de una fanbase de Mina Myoui, PROXIMAMENTE</p>
+        <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+       </div>
+    </div>
+</section>
+
+
+      <!-- Ion icons scripts -->
+      <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
